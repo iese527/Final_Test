@@ -58,4 +58,5 @@ string[] arrayWordsInput = {"Apple", "-2", "Train", "Eve", "12", ":-)", "654", "
 string[] arrayWords;
 
 arrayWords = InputArray(arrayWordsInput);
-PrintArray(SortArray(arrayWords));
+arrayWords = SortArray(arrayWords);
+PrintArray(arrayWords);
